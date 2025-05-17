@@ -1,0 +1,198 @@
+export interface Product {
+  id: string;
+  name: string;
+  category: string;
+  description: string;
+  price: number;
+  originalPrice?: number;
+  features: string[];
+  specifications: Record<string, string>;
+  imageUrl: string;
+}
+
+export const products: Product[] = [
+  // 2 Wheeler Products
+  {
+    id: '2w-001',
+    name: 'BharatScooter Pro',
+    category: '2-wheeler',
+    description: 'Premium electric scooter with extended range and smart features for urban commuters.',
+    price: 89999,
+    originalPrice: 99999,
+    features: ['120km Range', 'Smart Connectivity', 'Fast Charging', 'Regenerative Braking'],
+    specifications: {
+      'Battery': '2.5 kWh Lithium-ion',
+      'Motor': '1800W BLDC',
+      'Top Speed': '60 km/h',
+      'Charging Time': '4 hours',
+      'Weight': '85 kg'
+    },
+    imageUrl: 'https://images.pexels.com/photos/8412091/pexels-photo-8412091.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+  },
+  {
+    id: '2w-002',
+    name: 'BharatScooter Lite',
+    category: '2-wheeler',
+    description: 'Affordable electric scooter for daily commuting with reliable performance.',
+    price: 69999,
+    features: ['80km Range', 'Digital Display', 'Economy Mode', 'Tubeless Tires'],
+    specifications: {
+      'Battery': '1.8 kWh Lithium-ion',
+      'Motor': '1200W BLDC',
+      'Top Speed': '45 km/h',
+      'Charging Time': '5 hours',
+      'Weight': '78 kg'
+    },
+    imageUrl: 'https://images.pexels.com/photos/5359273/pexels-photo-5359273.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+  },
+  {
+    id: '2w-003',
+    name: 'BharatBike Sport',
+    category: '2-wheeler',
+    description: 'High-performance electric motorcycle with sporty design and impressive acceleration.',
+    price: 129999,
+    features: ['150km Range', 'Multiple Riding Modes', 'Disc Brakes', 'LED Lighting'],
+    specifications: {
+      'Battery': '3.5 kWh Lithium-ion',
+      'Motor': '3000W BLDC',
+      'Top Speed': '90 km/h',
+      'Charging Time': '3.5 hours',
+      'Weight': '115 kg'
+    },
+    imageUrl: 'https://images.pexels.com/photos/2393835/pexels-photo-2393835.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+  },
+  {
+    id: '2w-004',
+    name: 'BharatBike City',
+    category: '2-wheeler',
+    description: 'Comfortable electric city bike with upright seating position and practical features.',
+    price: 99999,
+    features: ['100km Range', 'Comfortable Seat', 'Luggage Carrier', 'Anti-theft Alarm'],
+    specifications: {
+      'Battery': '2.2 kWh Lithium-ion',
+      'Motor': '2000W BLDC',
+      'Top Speed': '60 km/h',
+      'Charging Time': '4 hours',
+      'Weight': '95 kg'
+    },
+    imageUrl: 'https://images.pexels.com/photos/1413412/pexels-photo-1413412.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+  },
+  
+  // 3 Wheeler Products
+  {
+    id: '3w-001',
+    name: 'BharatAuto Passenger',
+    category: '3-wheeler',
+    description: 'Electric auto rickshaw designed for passenger transport with comfortable seating and reliability.',
+    price: 149999,
+    features: ['100km Range', '4 Passenger Capacity', 'Low Maintenance', 'Weather Protection'],
+    specifications: {
+      'Battery': '5 kWh Lithium-ion',
+      'Motor': '2500W BLDC',
+      'Top Speed': '40 km/h',
+      'Charging Time': '6 hours',
+      'Weight': '320 kg'
+    },
+    imageUrl: 'https://images.pexels.com/photos/95425/pexels-photo-95425.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+  },
+  {
+    id: '3w-002',
+    name: 'BharatAuto Cargo',
+    category: '3-wheeler',
+    description: 'Heavy-duty electric cargo vehicle for last-mile delivery and small businesses.',
+    price: 169999,
+    features: ['80km Range', '500kg Load Capacity', 'Robust Build', 'Low Running Cost'],
+    specifications: {
+      'Battery': '7.5 kWh Lithium-ion',
+      'Motor': '3000W BLDC',
+      'Top Speed': '35 km/h',
+      'Charging Time': '7 hours',
+      'Weight': '380 kg'
+    },
+    imageUrl: 'https://images.pexels.com/photos/544339/pexels-photo-544339.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+  },
+  {
+    id: '3w-003',
+    name: 'BharatAuto Premium',
+    category: '3-wheeler',
+    description: 'Luxury electric rickshaw with enhanced features and comfort for premium passenger transport.',
+    price: 179999,
+    originalPrice: 199999,
+    features: ['120km Range', 'Air-cooled Seats', 'Entertainment System', 'GPS Navigation'],
+    specifications: {
+      'Battery': '6 kWh Lithium-ion',
+      'Motor': '2800W BLDC',
+      'Top Speed': '45 km/h',
+      'Charging Time': '5 hours',
+      'Weight': '340 kg'
+    },
+    imageUrl: 'https://images.pexels.com/photos/8000510/pexels-photo-8000510.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+  },
+  
+  // Battery Products
+  {
+    id: 'bat-001',
+    name: 'PowerPlus 2.5',
+    category: 'battery',
+    description: 'High-capacity lithium-ion battery for 2-wheeler electric vehicles with long life cycles.',
+    price: 35999,
+    features: ['2.5 kWh Capacity', '1500+ Charge Cycles', 'Smart BMS', 'Fast Charge Compatible'],
+    specifications: {
+      'Capacity': '2.5 kWh',
+      'Voltage': '48V',
+      'Chemistry': 'Lithium-ion NMC',
+      'Weight': '12 kg',
+      'Warranty': '3 years'
+    },
+    imageUrl: 'https://images.pexels.com/photos/163100/circuit-circuit-board-resistor-computer-163100.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+  },
+  {
+    id: 'bat-002',
+    name: 'PowerPlus 5.0',
+    category: 'battery',
+    description: 'Heavy-duty battery pack for 3-wheeler applications with enhanced durability and performance.',
+    price: 59999,
+    features: ['5.0 kWh Capacity', '2000+ Charge Cycles', 'Temperature Management', 'Waterproof Design'],
+    specifications: {
+      'Capacity': '5.0 kWh',
+      'Voltage': '72V',
+      'Chemistry': 'Lithium-ion LFP',
+      'Weight': '25 kg',
+      'Warranty': '4 years'
+    },
+    imageUrl: 'https://images.pexels.com/photos/4195327/pexels-photo-4195327.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+  },
+  {
+    id: 'bat-003',
+    name: 'PowerPlus Portable',
+    category: 'battery',
+    description: 'Portable backup battery that can be used as range extender or emergency power source.',
+    price: 24999,
+    originalPrice: 29999,
+    features: ['1.2 kWh Capacity', 'Portable Design', 'Multiple Output Ports', 'Quick Swap'],
+    specifications: {
+      'Capacity': '1.2 kWh',
+      'Voltage': '48V',
+      'Chemistry': 'Lithium-ion',
+      'Weight': '8 kg',
+      'Warranty': '2 years'
+    },
+    imageUrl: 'https://images.pexels.com/photos/159397/solar-panel-array-power-sun-electricity-159397.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+  },
+  {
+    id: 'bat-004',
+    name: 'PowerPlus Ultra',
+    category: 'battery',
+    description: 'Premium high-performance battery with advanced technology for maximum range and longevity.',
+    price: 79999,
+    features: ['7.5 kWh Capacity', '3000+ Charge Cycles', 'Advanced BMS', 'Rapid Charging'],
+    specifications: {
+      'Capacity': '7.5 kWh',
+      'Voltage': '96V',
+      'Chemistry': 'Lithium-ion NCA',
+      'Weight': '30 kg',
+      'Warranty': '5 years'
+    },
+    imageUrl: 'https://images.pexels.com/photos/6615076/pexels-photo-6615076.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+  }
+];
