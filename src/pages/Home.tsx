@@ -53,13 +53,6 @@ const Home: React.FC = () => {
       <section className="py-20 bg-white" id="about-section">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center">
-            <div className="md:w-1/2 mb-10 md:mb-0">
-              <img 
-                src="https://images.pexels.com/photos/4068383/pexels-photo-4068383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-                alt="About BHARAT EVs" 
-                className="rounded-lg shadow-xl"
-              />
-            </div>
             <div className="md:w-1/2 md:pl-12">
               <h2 className="text-3xl font-bold mb-6">About BHARAT EVs</h2>
               <p className="text-gray-700 mb-6">
@@ -88,11 +81,11 @@ const Home: React.FC = () => {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* 2 Wheeler Card */}
+            {/*2 Wheeler*/}
             <div className="bg-white rounded-lg shadow-md overflow-hidden transform transition-transform hover:scale-105">
               <div className="h-64 overflow-hidden">
                 <img 
-                  src="https://images.pexels.com/photos/4974915/pexels-photo-4974915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                  src="https://images.carandbike.com/cms/articles/3202223/Honda_Electric_Scooter_2022_09_15_T07_09_55_653_Z_aee9fd8206.jpeg" 
                   alt="2 Wheeler EVs" 
                   className="w-full h-full object-cover"
                 />
@@ -116,7 +109,7 @@ const Home: React.FC = () => {
             <div className="bg-white rounded-lg shadow-md overflow-hidden transform transition-transform hover:scale-105">
               <div className="h-64 overflow-hidden">
                 <img 
-                  src="https://images.pexels.com/photos/7039953/pexels-photo-7039953.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                  src="https://5.imimg.com/data5/SELLER/Default/2023/4/300371346/OM/SI/CD/50896740/euler-hiload-ev-electric-cargo-delivery-van-three-wheeler-full-body-commercial-delivery-van.png" 
                   alt="3 Wheeler EVs" 
                   className="w-full h-full object-cover"
                 />
@@ -140,7 +133,7 @@ const Home: React.FC = () => {
             <div className="bg-white rounded-lg shadow-md overflow-hidden transform transition-transform hover:scale-105">
               <div className="h-64 overflow-hidden">
                 <img 
-                  src="https://images.pexels.com/photos/6952886/pexels-photo-6952886.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                  src="https://cpimg.tistatic.com/05946933/b/4/EV-Battery-Pack.jpg" 
                   alt="EV Batteries" 
                   className="w-full h-full object-cover"
                 />

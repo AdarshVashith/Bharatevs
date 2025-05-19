@@ -22,16 +22,11 @@ const AboutUs: React.FC = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-1/2 mb-10 md:mb-0">
-              <img 
-                src="https://images.pexels.com/photos/6962024/pexels-photo-6962024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-                alt="BHARAT EVs Story" 
-                className="rounded-lg shadow-xl"
-              />
             </div>
             <div className="md:w-1/2 md:pl-12">
               <h2 className="text-3xl font-bold mb-6">Our Story</h2>
               <p className="text-gray-700 mb-6">
-                BHARAT EVs was founded in 2020 with a vision to transform the Indian transportation landscape. 
+                BHARAT EVs founded in 2025 with a vision to transform the Indian transportation landscape. 
                 In a country facing increasing air pollution and dependency on fossil fuels, we saw an opportunity 
                 to make a difference by introducing high-quality, affordable electric vehicles.
               </p>
