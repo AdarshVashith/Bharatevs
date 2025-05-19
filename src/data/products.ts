@@ -129,69 +129,68 @@ export const products: Product[] = [
     imageUrl: 'https://images.pexels.com/photos/8000510/pexels-photo-8000510.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
   },
   
-  // Battery Products
+  // Battery Service Products
   {
     id: 'bat-001',
-    name: 'PowerPlus 2.5',
+    name: '2-Wheeler Battery Service',
     category: 'battery',
-    description: 'High-capacity lithium-ion battery for 2-wheeler electric vehicles with long life cycles.',
-    price: 35999,
-    features: ['2.5 kWh Capacity', '1500+ Charge Cycles', 'Smart BMS', 'Fast Charge Compatible'],
+    description: 'Comprehensive battery service for 2-wheeler electric vehicles including diagnostics, maintenance, and optimization.',
+    price: 1999,
+    features: ['Battery Health Check', 'Cell Balancing', 'Performance Optimization', 'Warranty Support'],
     specifications: {
-      'Capacity': '2.5 kWh',
-      'Voltage': '48V',
-      'Chemistry': 'Lithium-ion NMC',
-      'Weight': '12 kg',
-      'Warranty': '3 years'
+      'Service Duration': '2-3 hours',
+      'Warranty': '6 months',
+      'Includes': 'Full diagnostics report',
+      'Compatible': 'All 2W EV models',
+      'Support': '24/7 assistance'
     },
     imageUrl: 'https://images.pexels.com/photos/163100/circuit-circuit-board-resistor-computer-163100.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
   },
   {
     id: 'bat-002',
-    name: 'PowerPlus 5.0',
+    name: '3-Wheeler Battery Service',
     category: 'battery',
-    description: 'Heavy-duty battery pack for 3-wheeler applications with enhanced durability and performance.',
-    price: 59999,
-    features: ['5.0 kWh Capacity', '2000+ Charge Cycles', 'Temperature Management', 'Waterproof Design'],
+    description: 'Professional battery maintenance and repair service for 3-wheeler electric vehicles with enhanced durability focus.',
+    price: 2999,
+    features: ['Deep Cycle Testing', 'Thermal Management Check', 'Performance Tuning', 'Extended Support'],
     specifications: {
-      'Capacity': '5.0 kWh',
-      'Voltage': '72V',
-      'Chemistry': 'Lithium-ion LFP',
-      'Weight': '25 kg',
-      'Warranty': '4 years'
+      'Service Duration': '3-4 hours',
+      'Warranty': '1 year',
+      'Includes': 'Comprehensive analysis',
+      'Compatible': 'All 3W EV models',
+      'Support': 'Priority assistance'
     },
     imageUrl: 'https://images.pexels.com/photos/4195327/pexels-photo-4195327.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
   },
   {
     id: 'bat-003',
-    name: 'PowerPlus Portable',
+    name: 'Emergency Battery Service',
     category: 'battery',
-    description: 'Portable backup battery that can be used as range extender or emergency power source.',
-    price: 24999,
-    originalPrice: 29999,
-    features: ['1.2 kWh Capacity', 'Portable Design', 'Multiple Output Ports', 'Quick Swap'],
+    description: 'Quick response battery service for emergency situations with immediate support and temporary solutions.',
+    price: 3999,
+    features: ['24/7 Availability', 'Rapid Response', 'On-site Service', 'Temporary Replacement'],
     specifications: {
-      'Capacity': '1.2 kWh',
-      'Voltage': '48V',
-      'Chemistry': 'Lithium-ion',
-      'Weight': '8 kg',
-      'Warranty': '2 years'
+      'Response Time': 'Within 2 hours',
+      'Service Area': 'City-wide coverage',
+      'Includes': 'Emergency repairs',
+      'Compatible': 'All EV models',
+      'Support': 'Round-the-clock'
     },
     imageUrl: 'https://images.pexels.com/photos/159397/solar-panel-array-power-sun-electricity-159397.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
   },
   {
     id: 'bat-004',
-    name: 'PowerPlus Ultra',
+    name: 'Premium Battery Care',
     category: 'battery',
-    description: 'Premium high-performance battery with advanced technology for maximum range and longevity.',
-    price: 79999,
-    features: ['7.5 kWh Capacity', '3000+ Charge Cycles', 'Advanced BMS', 'Rapid Charging'],
+    description: 'Comprehensive annual battery maintenance program with regular checkups and priority service.',
+    price: 5999,
+    features: ['Quarterly Checkups', 'Priority Service', 'Performance Reports', 'Extended Warranty'],
     specifications: {
-      'Capacity': '7.5 kWh',
-      'Voltage': '96V',
-      'Chemistry': 'Lithium-ion NCA',
-      'Weight': '30 kg',
-      'Warranty': '5 years'
+      'Duration': '1 year program',
+      'Checkups': '4 times/year',
+      'Includes': 'All battery services',
+      'Compatible': 'All EV models',
+      'Support': 'VIP assistance'
     },
     imageUrl: 'https://images.pexels.com/photos/6615076/pexels-photo-6615076.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
   }
