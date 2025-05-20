@@ -7,7 +7,7 @@ interface LinkProps {
 }
 
 export const Link: React.FC<LinkProps> = ({ to, className, children }) => {
-  const handleClick = (e: React.MouseEvent) => {
+  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
     
     // Handle in-page anchor links
